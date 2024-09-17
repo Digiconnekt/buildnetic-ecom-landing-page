@@ -40,3 +40,21 @@ input {
   margin-top: 80px;
   margin-bottom: 80px;
 }
+
+.section-heading {
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--primary);
+}
+
+.section-heading-border {
+  width: 100px;
+  height: 3px;
+  background-color: var(--primary);
+}
+
+@media (max-width: 768px) {
+  .section-heading {
+    font-size: 30px;
+  }
+}
