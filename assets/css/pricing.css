@@ -1,0 +1,129 @@
+#pricing-section .basic-price,
+#pricing-section .advanced-price {
+  margin-top: 50px;
+}
+
+#pricing-section .block {
+  height: 100%;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0px 2px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+#pricing-section .block:hover {
+  transform: scale(1.05);
+  background-color: #e1f0ff;
+  border-color: #e1f0ff;
+}
+
+#pricing-section .seperator-border {
+  border-bottom: 1px solid #eeeeee;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+#pricing-section .block h2.title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+  text-align: center;
+  color: #000000;
+}
+
+#pricing-section .block h3.price {
+  color: var(--primary);
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+#pricing-section .block h3.price span.dollar-type {
+  font-size: 18px;
+  font-weight: 500;
+  color: #646464;
+}
+
+#pricing-section .block h4.timeline {
+  color: #646464;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#pricing-section .block h4.timeline span.days {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#pricing-section .block a.buy-now-btn {
+  display: block;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  border-radius: 25px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-weight: 600;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+
+#pricing-section .block a.buy-now-btn:hover {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+
+#pricing-section .block .accordion .accordion-item {
+  border: none;
+  background-color: #e1f0ff;
+}
+
+#pricing-section .block .accordion .accordion-item .accordion-button {
+  font-size: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #ffffff;
+  box-shadow: none;
+  transition: transform 0.3s ease;
+}
+
+#pricing-section .block .accordion .accordion-item .accordion-body {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 14px;
+  background-color: #ffffff;
+  transition: transform 0.3s ease;
+}
+
+#pricing-section .block:hover .accordion .accordion-item .accordion-button,
+#pricing-section .block:hover .accordion .accordion-item .accordion-body {
+  background-color: #e1f0ff;
+}
+
+#pricing-section .block .accordion-button::after {
+  width: 15px;
+  height: 15px;
+  background-size: 15px;
+}
+
+#pricing-section .block .accordion-button:focus {
+  box-shadow: none;
+}
+
+#pricing-section .block ul li {
+  color: #454545;
+}
+
+#pricing-section .block p.description {
+  color: #5c5c5c;
+  font-size: 14px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
