@@ -2,6 +2,9 @@
 #pricing-section .advanced-price {
   margin-top: 50px;
 }
+#pricing-section .professional-price {
+  margin-top: 0px;
+}
 
 #pricing-section .block {
   height: 100%;
@@ -126,4 +129,20 @@
   font-size: 14px;
   margin-bottom: 0px;
   margin-top: 15px;
+}
+
+@media (max-width: 991px) {
+  #pricing-section .basic-price {
+    margin-top: 0px;
+  }
+
+  #pricing-section .advanced-price {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  #pricing-section .professional-price {
+    margin-top: 20px;
+  }
 }
